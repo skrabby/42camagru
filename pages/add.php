@@ -79,7 +79,6 @@ require_once 'components/footer.php';
         let imageObj2 = new Image();
         context.drawImage(video, 0, 0, 640, 480);
         imageObj2.src = '../img/overlay1.png';
-       // imageObj2.crossOrigin = 'anonymous';
         imageObj2.onload = function() {
             context.drawImage(imageObj2, 0, 0, 640, 480);
         }
