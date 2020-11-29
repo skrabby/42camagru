@@ -1,0 +1,70 @@
+.add-photo {
+    min-height: calc(100vh - 100px);
+}
+
+.flex-center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.webcam-outer-frame {
+    margin-top: 50px;
+    background: #212121;
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    width: 800px;
+}
+
+.webcam-photo {
+    position: relative;
+    background: #212121;
+    height: 480px;
+    width: 640px;
+}
+
+.webcam-addons-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 120px;
+    background: #212121;
+}
+
+.webcam-btn-capture {
+    background: #43aa60;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
+
+.webcam-btn-post {
+    background: #436caa;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
+
+.webcam-btn-reset {
+    background: #aa4343;
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
