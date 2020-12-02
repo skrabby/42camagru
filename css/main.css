@@ -13,12 +13,18 @@ a {
     color: white;
 }
 
+button {
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
 button:disabled {
     opacity: 0.6
 }
 
 button:hover {
-    opacity: 0.85
+    opacity: 0.9
 }
 
 form {

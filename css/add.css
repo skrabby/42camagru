@@ -26,13 +26,17 @@
     background: #212121;
     height: 480px;
     width: 640px;
+    touch-action: none;
 }
 
 .webcam-addons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 800px;
-    height: 120px;
+    height: 100px;
     background: #212121;
 }
 
@@ -67,4 +71,70 @@
     cursor: pointer;
     color: white;
     margin: 10px;
+}
+
+.sticker {
+    height: 80px;
+    width: 80px;
+    background: none;
+}
+
+.arrow {
+    height: 80px;
+    width: 20px;
+    background: #63ddff;
+}
+
+.sticker img {
+    background: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+
+}
+
+.drag-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 7px;
+    touch-action: none;
+}
+
+.drag-item {
+    position: absolute;
+    background: none;
+    width: 100px;
+    height: 100px;
+    touch-action: none;
+    user-select: none;
+    z-index:2;
+}
+
+.drag-item-img {
+    pointer-events: none;
+    background: none;
+    height: 100px;
+    width: 100px;
+}
+
+.drag-item-remove-btn {
+    position: absolute;
+    right: -10%;
+    top: -10%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #ff7373;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5px;
+    z-index: 3;
 }
