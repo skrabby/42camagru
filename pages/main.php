@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Camagru</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/index.css">
 </head>
@@ -13,42 +14,90 @@ require_once 'components/header.php';
 <div class="gallery">
     <div class="container">
         <div class="gallery-grid">
-            <figure class="gallery-frame">
+            <div class="post-card">
                 <img class="gallery-img" src="https://picsum.photos/640/480?random=1.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=2.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=3.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
+                <div class="info-section"> 
+                    <table cellpadding="0" cellspacing="0">
+                        <td><i class="material-icons" >favorite</i></td>
+                        <td class="counter">69</td>
+                        <td><i class="material-icons" >comment</i></td>
+                        <td class="counter">69</td>
+                        <td class="nickname">@skrabby</td>
+                    </table>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="gallery-img" src="https://picsum.photos/400/480?random=2.jpg" alt="symbol image" title="symbol image">
+                <div class="info-section">
+                <table cellpadding="0" cellspacing="0">
+                        <td><i class="material-icons" >favorite</i></td>
+                        <td class="counter">69</td>
+                        <td><i class="material-icons" >comment</i></td>
+                        <td class="counter">69</td>
+                        <td class="nickname">@skrabby</td>
+                    </table>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="gallery-img" src="https://picsum.photos/640/1000?random=3.jpg" alt="symbol image" title="symbol image">
+                <div class="info-section">
+                <table cellpadding="0" cellspacing="0">
+                        <td><i class="material-icons" >favorite</i></td>
+                        <td class="counter">69</td>
+                        <td><i class="material-icons" >comment</i></td>
+                        <td class="counter">69</td>
+                        <td class="nickname">@skrabby</td>
+                    </table>
+                </div>
+            </div>
+            <div class="post-card">
                 <img class="gallery-img" src="https://picsum.photos/640/480?random=4.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=5.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
+                <div class="info-section">
+                <table cellpadding="0" cellspacing="0">
+                        <td><i class="material-icons" >favorite</i></td>
+                        <td class="counter">69</td>
+                        <td><i class="material-icons" >comment</i></td>
+                        <td class="counter">69</td>
+                        <td class="nickname">@skrabby</td>
+                    </table>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="gallery-img" src="https://picsum.photos/400/900?random=5.jpg" alt="symbol image" title="symbol image">
+                <div class="info-section">
+                <table cellpadding="0" cellspacing="0">
+                        <td><i class="material-icons" >favorite</i></td>
+                        <td class="counter">69</td>
+                        <td><i class="material-icons" >comment</i></td>
+                        <td class="counter">69</td>
+                        <td class="nickname">@skrabby</td>
+                    </table>
+                </div>
+            </div>
+            <div class="post-card">
                 <img class="gallery-img" src="https://picsum.photos/640/480?random=6.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=7.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=8.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=9.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=10.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=11.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=12.jpg" alt="symbol image" title="symbol image">
-            </figure>
+                <div class="info-section">
+                <table cellpadding="0" cellspacing="0">
+                        <td><i class="material-icons" >favorite</i></td>
+                        <td class="counter">69</td>
+                        <td><i class="material-icons" >comment</i></td>
+                        <td class="counter">69</td>
+                        <td class="nickname">@skrabby</td>
+                    </table>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="gallery-img" src="https://picsum.photos/300/800?random=7.jpg" alt="symbol image" title="symbol image">
+                <div class="info-section">
+                <table cellpadding="0" cellspacing="0">
+                        <td><i class="material-icons" >favorite</i></td>
+                        <td class="counter">69</td>
+                        <td><i class="material-icons" >comment</i></td>
+                        <td class="counter">69</td>
+                        <td class="nickname">@skrabby</td>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </div>
