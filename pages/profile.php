@@ -2,68 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Camagru</title>
+    <title>Profile</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/profile.css">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
 <?php
 require_once 'components/header.php';
 ?>
-<div class="gallery">
+<div class="profile">
     <div class="container">
-        <div class="gallery-grid">
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=1.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=2.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=3.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=4.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=5.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=6.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=7.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=8.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=9.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=10.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=11.jpg" alt="symbol image" title="symbol image">
-            </figure>
-            <figure class="gallery-frame">
-                <img class="gallery-img" src="https://picsum.photos/640/480?random=12.jpg" alt="symbol image" title="symbol image">
-            </figure>
+        <div class="flex-center-wrapper img">
+            <img src="https://picsum.photos/250/250?random=10.jpg" alt="symbol image" title="symbol image">
+        </div>
+        <div class="flex-center-wrapper name">
+            <h1>Duc Truong</h1>
+        </div>
+        <div class="flex-center-wrapper description">
+            <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
         </div>
     </div>
 </div>
-<div class="pagination-block">
-    <div class="container">
-        <a href="#" class="page-link"><p>«</p></a>
-        <a href="#" class="page-link"><p>1</p></a>
-        <a href="#" class="page-link"><p>2</p></a>
-        <a href="#" class="page-link"><p>3</p></a>
-        <a href="#" class="page-link"><p>4</p></a>
-        <a href="#" class="page-link"><p>5</p></a>
-        <a href="#" class="page-link"><p>»</p></a>
-    </div>
-</div>
 <?php
+require_once 'components/gallery.php';
 require_once 'components/footer.php';
 ?>
 </body>

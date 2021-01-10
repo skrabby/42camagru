@@ -1,5 +1,5 @@
 <header>
-    <div class="container-l">
+    <div class="container-fix-width">
         <div class="line-full-width bottom-abs"></div>
         <div style="display: flex;">
             <div class="col-1"></div>

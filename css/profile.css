@@ -1,0 +1,43 @@
+.profile {
+	height: 550px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+
+.profile .container {
+	height: inherit;
+	background: linear-gradient(-45deg, #722727 50%, #277269 50%);
+}
+
+.profile img {
+	border-radius: 50%;
+	margin: 50px 20px 10px 20px;
+}
+
+.profile h1 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+}
+
+.profile p {
+	font-size: 13px;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.profile .name {
+	margin: 20px auto;
+	height: 45px;
+	width: 275px;
+	border: 2px white solid;
+	line-height: 45px;
+}
+
+.profile .description {
+	margin: 30px auto;
+	height: 100px;
+	width: 550px;
+	text-align: center;
+}

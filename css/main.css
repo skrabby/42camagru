@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 * {
     margin: 0;
     background: #1E1E1E;
     font-family: 'Montserrat';
+    font-weight: 400;
 }
 
-.hidden {
-    display: none;
+div {
+    background: none;
+}
+
+h1, p {
+    background: transparent;
 }
 
 table, tbody, tr, th, td{
@@ -95,7 +99,7 @@ header .icons-right {
 header .header-link {
     text-decoration: none;
     font-size: 12px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 75px;
     padding-left: 3px;
 }
@@ -141,11 +145,22 @@ footer .contact-icons i {
 }
 /* containers */
 
-.container-l {
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-fix-width {
     position: relative;
     height: inherit;
     width: 1200px;
     background: transparent;
+    margin: auto;
+}
+
+.flex-center-wrapper {
+	display: flex;
+    justify-content: center;
 }
 
 .bottom-abs {

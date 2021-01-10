@@ -1,5 +1,5 @@
 <footer>
-    <div class=container-l>
+    <div class=container-fix-width>
         <div class="line-full-width top-abs"></div>
         <h1>Duc Truong</h1>
         <div class="contact-icons">
