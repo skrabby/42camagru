@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 * {
     margin: 0;
+    padding: 0;
     background: #1E1E1E;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -36,21 +37,26 @@ button {
 }
 
 button:disabled {
-    opacity: 0.7;
+    opacity: 0.8;
     cursor: not-allowed;
 }
 
 button:hover {
-    opacity: 0.7
+    opacity: 0.8
 }
 
 form {
     background-color: transparent;
 }
 
-input {
+input, textarea {
+    border: none;
     outline: none;
     padding: 10px 20px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
 }
 
 ::placeholder {

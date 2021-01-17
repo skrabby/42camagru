@@ -1,0 +1,35 @@
+/* The Modal (background) */
+.modal {
+	display: block;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.85); 
+  }
+  
+.modal-content {
+	background-color: #E5E5E5;
+	margin: calc(50vh - 382px) auto;
+	height: 760px;
+	width: 1200px;
+  }
+
+.close-btn:hover, .close:focus {
+	  cursor: pointer;
+	  color: rgb(206, 206, 206);
+  }
+
+.close-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #E5E5E5;
+}
+
+.close-btn i {
+	  font-size: 38px;
+}

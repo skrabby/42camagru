@@ -35,9 +35,9 @@
     font-weight: 700;
 }
 
-.info-section i {
-    line-height: 40px;
-    padding-left: 10px;
+.info-section td {
+    height: 40px;
+    vertical-align: middle;
 }
 
 .info-section p {
@@ -47,6 +47,12 @@
     font-weight: bold;
     padding: 5px;
     line-height: 40px;
+}
+
+.info-section a {
+    cursor: pointer;
+    color: black;
+    margin-left: 10px;
 }
 
 .gallery .container {

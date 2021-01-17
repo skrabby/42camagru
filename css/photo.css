@@ -1,0 +1,173 @@
+.photo-wrapper {
+	width: 700px;
+	height: 760px;
+}
+
+.comment-wrapper {
+	width: 500px;
+	height: 760px;
+	background: #E5E5E5;
+}
+
+.comment-section {
+	overflow: auto;
+	height: 680px;
+	width: 100%;
+}
+
+.comment-section .container {
+	max-width: 420px;
+	margin: 20px auto 0px auto;
+}
+
+.comment-section::-webkit-scrollbar {
+    width: 10px;
+}
+
+.comment-section::-webkit-scrollbar-track {
+    border-radius: 50%;
+}
+
+.comment-section::-webkit-scrollbar-thumb {
+	background:rgb(180, 180, 180);
+    border-radius: 10px;
+}
+
+.input-section {
+	position: relative;
+	height: 60px;
+	width: 420px;
+	margin-left: 35px;
+}
+
+.comment-input {
+	overflow: hidden;
+	position:absolute;
+	border: none;
+	font-size: 12px;
+	padding: 8px 15px 5px 15px;
+	min-height: 20px;
+	max-height: 650px;
+	width: 81%;
+	background: white;
+	resize: none;
+	bottom: 0;
+	left: 0;
+	border-top: 1px #E5E5E5 solid;
+}
+
+.send-btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 40px;
+	width: 40px;
+	background: none;
+}
+
+.send-btn i {
+	font-size: 32px;
+	text-align: center;
+	line-height: 49px;
+}
+
+.photo-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	height: 700px;
+	background: #1E1E1E;
+}
+
+.photo-section img {
+	max-height: 700px;
+	max-width: 700px;
+}
+
+.button-section {
+	height: 60px;
+	width: 100%;
+	background: #131313;
+}
+
+.comment-card {
+	width: 100%;
+	min-height: 50px;
+	background: white;
+}
+
+.comment-card .container {
+	display: flex;
+	max-width: 380px;
+	min-height: 50px;
+}
+
+.comment-card img {
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	background: none;
+	margin-top: 13px;
+}
+
+.comment-card .comment {
+	width: 356px;
+	min-height: 50px;
+}
+
+.comment-card .comment h1 {
+	color: #1E1E1E;
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 13px;
+	padding-left: 10px;
+}
+
+.comment-card .comment .text {
+	overflow-wrap: break-word;
+	font-size: 12px;
+	padding: 5px 10px 13px 10px;
+	width: calc(356px - 15px); /* to imitate padding-right */
+}
+
+.comment-card .comment .date {
+	font-size: 10px;
+	color: #bebebe;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.button-section table {
+	background: none;
+	color: white;
+}
+
+.button-section td {
+	height: 60px;
+	vertical-align: middle;
+}
+
+.button-section a {
+	cursor: pointer;
+	margin-left: 30px;
+	margin-right: 2px;
+}
+
+.button-section .counter {
+    width: 8%;
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.button-section .delete-btn {
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+	padding-right: 28px;
+}
+
+.button-section .delete-btn a {
+	color: rgb(236, 72, 31);
+}
